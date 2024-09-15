@@ -1,0 +1,65 @@
+name: fit_pair
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  googleapis: ^2.0.0
+  flutter_facebook_auth: ^5.0.2
+  url_launcher: ^6.0.0 
+  google_sign_in: ^5.0.7
+  googleapis_auth: ^1.2.0
+  cupertino_icons: ^1.0.8
+  fl_chart: ^0.62.0
+  readmore: ^3.0.0
+  dotted_dashed_line: ^0.0.3
+  simple_animation_progress_bar: ^1.6.0
+  simple_circular_progress_bar: ^1.0.2
+  carousel_slider: ^4.2.1
+  animated_toggle_switch: ^0.6.2
+  intl: ^0.18.1
+  flutter_swiper_null_safety: ^1.0.2
+  sqflite: ^2.3.3+1
+  path_provider: ^2.1.4
+  path: ^1.9.0
+  email_validator: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+  flame: ^1.19.0
+  calendar_agenda:
+    path: dev_lib/calendar_agenda/
+
+  firebase_core: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/font/Poppins-Regular.ttf
+        - asset: assets/font/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/font/Poppins-Bold.ttf
+          weight: 700
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: "AppIcon"
+  image_path: "assets/icon/gym.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
